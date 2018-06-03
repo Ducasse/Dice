@@ -1,8 +1,13 @@
 Extension { #name : #Integer }
 
 { #category : #'*Dice' }
+Integer >> D10 [
+	^ self D: 10
+]
+
+{ #category : #'*Dice' }
 Integer >> D2 [
-	^ self D: 2
+	^ self D: 3
 ]
 
 { #category : #'*Dice' }
